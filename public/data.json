@@ -7,7 +7,7 @@
     "battingstyle": "Right-hand bat",
     "blowingstyle": "Right-arm medium",
     "price": 1500000,
-    "image": "https://example.com/images/virat_kohli.jpg"
+    "image": "https://i.ibb.co.com/6Kxmy2h/birat.jpg"
   },
   {
     "playername": "Babar Azam",
@@ -17,7 +17,7 @@
     "battingstyle": "Right-hand bat",
     "blowingstyle": "Right-arm offbreak",
     "price": 1400000,
-    "image": "https://example.com/images/babar_azam.jpg"
+    "image": "https://i.ibb.co.com/MxF7nJ0p/babar.jpg"
   },
   {
     "playername": "Joe Root",
@@ -27,7 +27,7 @@
     "battingstyle": "Right-hand bat",
     "blowingstyle": "Right-arm offbreak",
     "price": 1350000,
-    "image": "https://example.com/images/joe_root.jpg"
+    "image": "https://i.ibb.co.com/G4bW9JYx/joe-root.jpg"
   },
   {
     "playername": "Kane Williamson",
@@ -37,7 +37,7 @@
     "battingstyle": "Right-hand bat",
     "blowingstyle": "Right-arm offbreak",
     "price": 1300000,
-    "image": "https://example.com/images/kane_williamson.jpg"
+    "image": "https://i.ibb.co.com/gLGwSXZz/kane.jpg"
   },
   {
     "playername": "Ben Stokes",
@@ -47,7 +47,7 @@
     "battingstyle": "Left-hand bat",
     "blowingstyle": "Right-arm fast-medium",
     "price": 1450000,
-    "image": "https://example.com/images/ben_stokes.jpg"
+    "image": "https://i.ibb.co.com/35H0L3PK/ben.jpg"
   },
   {
     "playername": "Shakib Al Hasan",
@@ -57,7 +57,7 @@
     "battingstyle": "Left-hand bat",
     "blowingstyle": "Left-arm orthodox",
     "price": 1200000,
-    "image": "https://example.com/images/shakib_al_hasan.jpg"
+    "image": "https://i.ibb.co.com/67Xz45WM/shakib.jpg"
   },
   {
     "playername": "Mitchell Starc",
@@ -67,7 +67,7 @@
     "battingstyle": "Left-hand bat",
     "blowingstyle": "Left-arm fast",
     "price": 1250000,
-    "image": "https://example.com/images/mitchell_starc.jpg"
+    "image": "https://i.ibb.co.com/DH9jFjCT/mitchell.jpg"
   },
   {
     "playername": "Jasprit Bumrah",
@@ -77,7 +77,7 @@
     "battingstyle": "Right-hand bat",
     "blowingstyle": "Right-arm fast",
     "price": 1500000,
-    "image": "https://example.com/images/jasprit_bumrah.jpg"
+    "image": "https://i.ibb.co.com/VW2FKgQs/jasprit.jpg"
   },
   {
     "playername": "Trent Boult",
@@ -87,7 +87,7 @@
     "battingstyle": "Right-hand bat",
     "blowingstyle": "Left-arm fast-medium",
     "price": 1300000,
-    "image": "https://example.com/images/trent_boult.jpg"
+    "image": "https://i.ibb.co.com/SDpr5wrx/trent.jpg"
   },
   {
     "playername": "David Warner",
@@ -97,6 +97,6 @@
     "battingstyle": "Left-hand bat",
     "blowingstyle": "Right-arm legbreak",
     "price": 1100000,
-    "image": "https://example.com/images/david_warner.jpg"
+    "image": "https://i.ibb.co.com/C3hz0nxG/david.jpg"
   }
 ]
