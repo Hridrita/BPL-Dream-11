@@ -1,12 +1,13 @@
 import React from 'react';
 import dollerImg from "../../assets/dollar-1.png"
+import logoImg from "../../assets/logo.png"
 
 const NavBar = () => {
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <img src={logoImg}></img>
   </div>
   <div className="flex justify-between gap-3">
     <div className='flex justify-between gap-8 mt-2'>
