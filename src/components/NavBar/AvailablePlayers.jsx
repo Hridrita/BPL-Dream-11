@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import iconImg from '../../assets/user 1.png'
 import flagImg from '../../assets/report 1.png'
 import './AvailablePlayers.css'
 
 
 const AvailablePlayers = ({player}) => {
+
+    const [isSelected, setIsSelected] = useState(false);
     console.log(player)
     return (
         <div className="h-full">
@@ -39,7 +41,11 @@ const AvailablePlayers = ({player}) => {
 
         <div className='flex justify-between'>
             <h2 className='font-bold'>Price:{player.price}</h2>
-            <button className="btn btn-outline btn-sm bg-transparent border border-gray-300 rounded-xl px-4 py-1">Choose Player</button>
+            <button onClick={()=> setIsSelected(true)}
+            disabled={isSelected == true ? true : false } 
+            className="btn btn-outline btn-sm bg-transparent border border-gray-300 rounded-xl px-4 py-1">
+                { isSelected === true ? "Selected" : "Choose Player"}
+                </button>
         </div>
 
     </div>

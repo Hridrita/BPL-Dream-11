@@ -2,7 +2,7 @@ import React from 'react';
 import dollerImg from "../../assets/dollar-1.png"
 import logoImg from "../../assets/logo.png"
 
-const NavBar = () => {
+const NavBar = ({coin}) => {
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm container mx-auto">
@@ -17,7 +17,7 @@ const NavBar = () => {
         <h3>Schedules</h3>
     </div>
     <button className="btn btn-outline border-gray-200 rounded-xl flex gap-2 font-bold hover:bg-transparent hover:text-black">
-  <span>0 Coin</span>
+  <span>{coin} Coin</span>
   <img src={dollerImg} alt="coin icon" className="w-6 h-6" />
 </button>
   </div>
