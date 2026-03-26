@@ -1,0 +1,102 @@
+[
+  {
+    "playername": "Virat Kohli",
+    "playercountry": "India",
+    "playertype": "Batsman",
+    "rating": 92,
+    "battingstyle": "Right-hand bat",
+    "blowingstyle": "Right-arm medium",
+    "price": 1500000,
+    "image": "https://example.com/images/virat_kohli.jpg"
+  },
+  {
+    "playername": "Babar Azam",
+    "playercountry": "Pakistan",
+    "playertype": "Batsman",
+    "rating": 90,
+    "battingstyle": "Right-hand bat",
+    "blowingstyle": "Right-arm offbreak",
+    "price": 1400000,
+    "image": "https://example.com/images/babar_azam.jpg"
+  },
+  {
+    "playername": "Joe Root",
+    "playercountry": "England",
+    "playertype": "Batsman",
+    "rating": 88,
+    "battingstyle": "Right-hand bat",
+    "blowingstyle": "Right-arm offbreak",
+    "price": 1350000,
+    "image": "https://example.com/images/joe_root.jpg"
+  },
+  {
+    "playername": "Kane Williamson",
+    "playercountry": "New Zealand",
+    "playertype": "Batsman",
+    "rating": 89,
+    "battingstyle": "Right-hand bat",
+    "blowingstyle": "Right-arm offbreak",
+    "price": 1300000,
+    "image": "https://example.com/images/kane_williamson.jpg"
+  },
+  {
+    "playername": "Ben Stokes",
+    "playercountry": "England",
+    "playertype": "All-rounder",
+    "rating": 91,
+    "battingstyle": "Left-hand bat",
+    "blowingstyle": "Right-arm fast-medium",
+    "price": 1450000,
+    "image": "https://example.com/images/ben_stokes.jpg"
+  },
+  {
+    "playername": "Shakib Al Hasan",
+    "playercountry": "Bangladesh",
+    "playertype": "All-rounder",
+    "rating": 90,
+    "battingstyle": "Left-hand bat",
+    "blowingstyle": "Left-arm orthodox",
+    "price": 1200000,
+    "image": "https://example.com/images/shakib_al_hasan.jpg"
+  },
+  {
+    "playername": "Mitchell Starc",
+    "playercountry": "Australia",
+    "playertype": "Bowler",
+    "rating": 87,
+    "battingstyle": "Left-hand bat",
+    "blowingstyle": "Left-arm fast",
+    "price": 1250000,
+    "image": "https://example.com/images/mitchell_starc.jpg"
+  },
+  {
+    "playername": "Jasprit Bumrah",
+    "playercountry": "India",
+    "playertype": "Bowler",
+    "rating": 93,
+    "battingstyle": "Right-hand bat",
+    "blowingstyle": "Right-arm fast",
+    "price": 1500000,
+    "image": "https://example.com/images/jasprit_bumrah.jpg"
+  },
+  {
+    "playername": "Trent Boult",
+    "playercountry": "New Zealand",
+    "playertype": "Bowler",
+    "rating": 88,
+    "battingstyle": "Right-hand bat",
+    "blowingstyle": "Left-arm fast-medium",
+    "price": 1300000,
+    "image": "https://example.com/images/trent_boult.jpg"
+  },
+  {
+    "playername": "David Warner",
+    "playercountry": "Australia",
+    "playertype": "Batsman",
+    "rating": 86,
+    "battingstyle": "Left-hand bat",
+    "blowingstyle": "Right-arm legbreak",
+    "price": 1100000,
+    "image": "https://example.com/images/david_warner.jpg"
+  }
+]
