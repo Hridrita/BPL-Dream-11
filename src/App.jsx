@@ -25,7 +25,7 @@ function App() {
     <Banner></Banner>
 
     <Suspense fallback={<div className="flex justify-center my-10"><span className="loading loading-spinner loading-lg"></span></div>}>
-        <Players playerPromise={playerPromise} />
+        <Players playerPromise={playerPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
     
     </>

@@ -4,10 +4,22 @@ import flagImg from '../../assets/report 1.png'
 import './AvailablePlayers.css'
 
 
-const AvailablePlayers = ({player}) => {
+const AvailablePlayers = ({player,coin, setCoin}) => {
 
     const [isSelected, setIsSelected] = useState(false);
-    console.log(player)
+
+    const handleChoosePlayer = ()=> {
+                setIsSelected(true); 
+                let newCoin = coin - player.price;
+
+                if(newCoin >= 0){
+                   setCoin(coin - player.price);
+                }else{
+                    alert("Not Enough Coin to Purchase This Player")
+                }
+            }
+
+    //console.log(player)
     return (
         <div className="h-full">
             <div className="card bg-base-100 w-96 shadow-sm p-4">
@@ -41,7 +53,8 @@ const AvailablePlayers = ({player}) => {
 
         <div className='flex justify-between'>
             <h2 className='font-bold'>Price:{player.price}</h2>
-            <button onClick={()=> setIsSelected(true)}
+
+            <button onClick={handleChoosePlayer}
             disabled={isSelected == true ? true : false } 
             className="btn btn-outline btn-sm bg-transparent border border-gray-300 rounded-xl px-4 py-1">
                 { isSelected === true ? "Selected" : "Choose Player"}

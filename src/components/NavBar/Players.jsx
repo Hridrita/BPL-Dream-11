@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import AvailablePlayers from './AvailablePlayers';
 import SelectedPlayers from './SelectedPlayers';
 
-const players = ({playerPromise}) => {
+const players = ({playerPromise, coin, setCoin}) => {
     console.log(playerPromise)
 
     const players = use(playerPromise)
@@ -25,7 +25,7 @@ const players = ({playerPromise}) => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {
-                players.map(player => selectedType === "available" ? <AvailablePlayers player={player}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>)
+                players.map(player => selectedType === "available" ? <AvailablePlayers player={player} setCoin={setCoin} coin={coin}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>)
             }
 
             </div>
