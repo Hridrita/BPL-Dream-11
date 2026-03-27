@@ -2,7 +2,17 @@ import React from 'react';
 import { MdDelete } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 
-const SelectedPlayers = ({ selectedPlayers }) => {
+const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }) => {
+
+    const handleDeleteSelectedPlayer = (player) =>{
+        console.log(player);
+        const filteredPlayers = selectedPlayers.filter((select) => select.playername !== player.playername);
+
+        console.log(filteredPlayers);
+
+        setSelectedPlayers(filteredPlayers);
+        setCoin(coin + player.price);
+    }
     return (
         <div className="space-y-4"> 
             {
@@ -16,7 +26,7 @@ const SelectedPlayers = ({ selectedPlayers }) => {
                             
                             </div>
                         </div>
-                        <button className="text-red-500 text-3xl p-2 hover:bg-red-50 rounded-full transition-all">
+                        <button onClick={() => handleDeleteSelectedPlayer(player)} className="text-red-500 text-3xl p-2 hover:bg-red-50 rounded-full transition-all">
                             <MdDelete />
                         </button>
                     </div>
