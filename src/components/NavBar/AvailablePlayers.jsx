@@ -4,12 +4,12 @@ import flagImg from '../../assets/report 1.png'
 import './AvailablePlayers.css'
 
 
-const AvailablePlayers = ({player,coin, setCoin}) => {
+const AvailablePlayers = ({player,coin, setCoin, setSelectedPlayers, selectedPlayers}) => {
 
     const [isSelected, setIsSelected] = useState(false);
 
     const handleChoosePlayer = ()=> {
-                setIsSelected(true); 
+                 
                 let newCoin = coin - player.price;
 
                 if(newCoin >= 0){
@@ -17,6 +17,9 @@ const AvailablePlayers = ({player,coin, setCoin}) => {
                 }else{
                     alert("Not Enough Coin to Purchase This Player")
                 }
+                setIsSelected(true);
+
+                setSelectedPlayers([...selectedPlayers, player])
             }
 
     //console.log(player)
