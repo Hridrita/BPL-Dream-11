@@ -21,7 +21,7 @@ const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin })
                         <div className='flex items-center gap-6'>
                             <img src={player.image} alt={player.playername} className='h-20 w-20 object-cover rounded-xl' />
                             <div>
-                                <h2 className='font-bold text-xl'>{player.playername}</h2>
+                                <h2 className='font-bold text-xl '>{player.playername}</h2>
                                 <p className='text-gray-500'>{player.playertype}</p>
                             
                             </div>

@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './components/NavBar/Banner'
 import NavBar from './components/NavBar/NavBar'
 import Players from './components/NavBar/Players'
+import { ToastContainer } from 'react-toastify'
 
 
 const playerPromise = fetch("/data.json")
@@ -27,6 +28,11 @@ function App() {
     <Suspense fallback={<div className="flex justify-center my-10"><span className="loading loading-spinner loading-lg"></span></div>}>
         <Players playerPromise={playerPromise} setCoin={setCoin} coin={coin} />
       </Suspense>
+
+
+
+
+      <ToastContainer/>
     
     </>
   )
